@@ -5,11 +5,11 @@ import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #capture video stream from webcam (value 0)
-cap = cv2.VideoCapture(0)
+capture1 = cv2.VideoCapture(0)
 
 #run image processing to create a gray image then produce detections and draw a rectangle
 while True:
-    _, img = cap.read()
+    _, img = capture1.read()
     
     #convert to grayscale
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -31,4 +31,4 @@ while True:
         
         
 #capture release        
-cap.release()
+capture1.release()
