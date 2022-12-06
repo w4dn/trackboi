@@ -1,1 +1,3 @@
-trackboi
+In order to work this project requires a C# script to control the output of the turret.
+The C# script is not currently present in the repo, however it will be soon.
+The turret will be built with an arduino, two servo motors, and a worker flywheel upgrade kit along with some 3d printed parts.
